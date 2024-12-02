@@ -1,1 +1,147 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: linear-gradient(to right, #27ae60, #2ecc71);
+    color: white;
+    padding: 40px 20px;
+    /* height: 400px; */
+    position: relative;
+}
+
+header img {
+    width: 420px; /* Adjust size of the logo */
+    height: auto;
+    margin-bottom: 20px;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+header h1 {
+    font-size: 3.5em;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+header p {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+header .btn {
+    padding: 12px 30px;
+    background-color: #f39c12;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    font-size: 1.2em;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+header .btn:hover {
+    background-color: #e67e22;
+    transform: scale(1.1);
+}
+
+/* Animated Background Image */
+
+
+/* Background Animation */
+
+
+
+/* Navigation Styles */
+nav {
+    background: #2c3e50;
+    padding: 15px 0;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #27ae60;
+}
+
+/* Section Styles */
+.section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.section h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+/* Services Styles */
+.services {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.service {
+    flex: 1 1 30%;
+    max-width: 300px;
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.service img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.service h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #2ecc71;
+}
+
+.service p {
+    color: #555;
+}
+
+/* Footer Styles */
+footer {
+    background: #2c3e50;
+    color: #000;
+}
